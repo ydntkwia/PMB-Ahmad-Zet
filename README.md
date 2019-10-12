@@ -1,6 +1,6 @@
 # PMB-Ahmad-Zet
 
-Demo <a href="https://pmb.zethello.com" target="_blank" >pmb.zethello.com</a>
+Check Demonya di <a href="https://pmb.zethello.com" target="_blank" >pmb.zethello.com</a> <br>
 Program ini adalah tugas akhir PKL Ahmad Zahraturrafiq yang boleh anda download untuk referensi maupun pembelajaran.
 
 > Program ini gratis dan sudah termasuk dengan databasenya. 
