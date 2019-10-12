@@ -1,5 +1,6 @@
 # PMB-Ahmad-Zet
 
+Demo <a href="https://pmb.zethello.com" target="_blank" >pmb.zethello.com</a>
 Program ini adalah tugas akhir PKL Ahmad Zahraturrafiq yang boleh anda download untuk referensi maupun pembelajaran.
 
 > Program ini gratis dan sudah termasuk dengan databasenya. 
@@ -29,7 +30,7 @@ Program ini adalah tugas akhir PKL Ahmad Zahraturrafiq yang boleh anda download 
 
 | <a href="https://zethello.com" target="_blank">**Ahmad Zahraturrafiq**</a> |
 | :---: |
-| [![zrafiq111](https://raw.githubusercontent.com/zrafiq111/PMB-Ahmad-Zet/master/dist/photo.png)]()    |
+| [![zrafiq111]()]()    |
 | `Indonesia` |
 
 
