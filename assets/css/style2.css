@@ -1,0 +1,85 @@
+.f-data-diri{
+	width: 200px;
+	height: 250px;
+	background-size: contain !important;
+	background-position: center !important;
+}
+
+.button{
+	display: none;
+}
+.jq-toast-wrap.bottom-left{
+	display: none;
+}
+#output{
+	border-radius: 100px 0 0 100px;
+}
+.output{
+	border-radius: 0 100px 100px 0;
+}
+.right-name{
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 100px;
+}
+.c-1-bg{
+	background: #45c0ba;
+}
+.objek{
+	transition: 0.2s ease;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+.card-view{
+	margin-bottom: 10px !important;
+}
+
+.objek:hover{
+	transform: scale(1.05) translateY(-5px);
+	transition: 0.2s ease;
+}
+.ps{
+	display: none;	
+}
+@media (max-width:1025px) {
+	.button{
+		display: unset;
+	}
+	.mobile{
+		display: none !important; 
+	}
+	#output{
+		display: none !important;  
+	}
+	.mobile-only-brand.pull-left{
+		height: 66px !important;
+	}
+}
+@media (max-width:767px) {
+	.ph{
+		display: none;	
+	}
+	.ps{
+		display: unset;	
+	}
+	.button{
+		display: unset;
+	}
+	.ouput{
+		display: none;
+	}
+	#output{
+		display: none;
+	}
+	.mobile{
+		display: none !important;
+	}
+	.hideen-mobile{
+		display: none !important;
+	}
+	.mobile-only-brand.pull-left{
+		height: 66px !important;
+	}
+}

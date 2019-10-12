@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.back-to-top i {
+  padding-top: 12px;
+  color: #fff;
+}
+select.form-control{
+    box-shadow: 0 0 0 0.125rem rgb(242,242,242);
+}
+.tombol-user{
+    background: #ffc107;
+    border-radius: 20px;
+    margin-left: 5px;
+    color: white !important; 
+}
+
+.pp{
+    background-size: cover;
+    border-radius: 100%;
+    vertical-align: middle;
+    border: 2px solid #ffc107;
+}
+
+.hamburger.hamburger--spin.tombol{
+    display: none;
+}
+#datable_1{
+    width: 100% !important;
+    overflow: hidden;
+}
+.video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    overflow: hidden;
+}
+.gambar1{
+    display: none;
+}
+.gambar2{
+    min-height: 380px;
+}
+.kartu{
+    -webkit-transition: 0.4s ease;
+}
+.kartu:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    z-index: 1;
+    -webkit-transition: 0.4s ease;
+}
+.big:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    z-index: 1;
+    -webkit-transition: 0.4s ease;
+}
+.big{
+    -webkit-transition: 0.4s ease;
+}
+.todo{
+    margin-top: -90px;
+}
+
+.tombol{
+    border:1px solid rgba(255, 255, 255, 0);
+    background: rgba(224, 168, 0,0);
+    /*border-radius: 15%;*/
+}
+#ignielToTop {
+    display:none;
+    z-index:2;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    border-radius:20px;
+    cursor:pointer;
+    transition:all .4s;
+    width:45px;
+    height:45px;
+    background:#ffc107 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center}
+    #ignielToTop:hover{
+        background:#e0a800 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center}
+        body{
+            scroll-behavior: smooth;
+            -webkit-scroll-behavior: smooth;
+        }
+        .sosmed{
+            font-size: 18pt;margin-top: -1.5%;
+        }
+        @media only screen and (max-width: 991px) {
+            .pp{
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            #ph{
+                display: none;
+            }
+            #features{
+                background-image: unset !important;
+            }
+            .navbar-dark .navbar-nav .nav-link{
+                font-size: 18pt;
+                margin-top: 10px;
+            }
+            .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link{
+                font-weight: bold;
+                font-size: 18pt;
+                color: #ffc107;
+                border-bottom: 1px solid
+            }
+            .navbar-nav{
+                height: 100vh
+            }
+            /*end*/
+            .hamburger.hamburger--spin.tombol{
+                display: block;
+            }
+            h2{
+                font-size: 27pt;
+            }
+
+            .gambar2{
+                min-height: 210px;
+                max-height: 210px;
+            }
+            .maps {
+                overflow-x: hidden; 
+            }
+            .ts-height__500px{
+                height: 20rem;
+            }
+            .gambar3{
+                visibility: hidden;
+                display: none;
+            }
+            .back-to-top {
+                bottom: 15px;
+            }
+            .video{
+                margin-top: -370px;
+                width: 140%;
+                height: 800px;
+                margin-left: -70px;
+            }
+            .todo{
+                margin-top: 0px;
+                width: 70%;
+                height: 70%;
+            }
+            .kartu:hover{
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+            .logo-footer{
+                padding: 20px;
+            }
+            .signature{
+                font-size: 14px;
+            }
+            .sosmed{
+                margin-top: -10%;
+            }   
+            .navigasi{
+                font-size: 14px;
+            }
+            .jarak{
+                margin-top: 20px;
+            }
+            .kontener{
+                margin-left: 20px;
+            }
+            .paragraf{
+                background: white;
+                padding: 10px;
+                color: #474747;
+                border-radius: 11px;
+                box-shadow: 0px 5px 4px rgba(0,0,0,0.2);
+            }
+            .paragraf2{
+                background: white;
+                padding: 10px;
+                color: #474747;
+                border-radius: 11px;
+                width: 220px;
+                box-shadow: 0px 5px 4px rgba(0,0,0,0.2);
+            }
+
+
+
+            .h4-judul{
+                font-size: 20pt;
+                margin: -20px 0px 15px 0px;   
+            }
+
+            .p-berita{
+                font-size: 16px;
+            }
+
+            .b-berita{
+                font-size: 13px;
+            }
+
+            
+
+            .c-berita{
+                margin: 0px 20px;
+            }
+        }

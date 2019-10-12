@@ -1,0 +1,55 @@
+/*-----------------ASSETS CSS DEKSTOP-----------------*/
+
+/*font*/
+.Poppins{
+	font-family: Poppins;
+}
+
+/*home*/
+.partner-home{
+	margin: 25px 0;
+}
+
+/*bantuan*/
+.alt-maps{
+	z-index: -1;
+	line-height: 400px;
+}
+
+#ignielToTop{
+	border-radius:100%; 
+}
+
+/*berita*/
+.p-berita-l{
+	padding: 3px 9px;
+}
+
+/*footer*/
+.footer-sosmed{
+	background: rgb(20, 14, 78);
+	padding:30px;
+	margin-top: -20px;
+	border-radius: .25rem;
+}
+
+/*--------------------------------------*/
+
+/*-----------------ASSETS CSS MOBILE-----------------*/
+@media (max-width:767px) {
+
+	/*daftar*/
+	.m-left-30.daftar-mobile{
+		margin-left: unset;
+	}.w-40.svg-daftar{
+		width: 60% !important; 
+	}
+
+	/*info*/
+	.m-left-30.info-mobile{
+		margin-left: unset;
+	}.m-right-30.info-mobile{
+		margin-right: unset;
+	}
+}
+/*--------------------------------------*/
